@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+@import "./../public/assets/font.scss";
+
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: Poppins, "Helvetica Neue", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-corner {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border: 2pt solid transparent;
+  border-radius: 3pt;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.2);
+  border: 3pt solid transparent;
+  background-clip: content-box;
+}

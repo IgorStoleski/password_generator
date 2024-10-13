@@ -1,0 +1,16 @@
+section {
+  display: flex;
+  height: 100vh;
+  background-image: url("/assets/img/kryptographie.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.8;
+}
+
+.pass-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
