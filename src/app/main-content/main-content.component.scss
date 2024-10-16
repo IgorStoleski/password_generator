@@ -1,6 +1,7 @@
 section {
   display: flex;
   height: 100vh;
+  width: 100%;
   background-image: url("/assets/img/kryptographie.jpg");
   background-size: cover;
   background-position: center;
@@ -13,4 +14,5 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
