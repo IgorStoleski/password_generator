@@ -44,12 +44,6 @@ export class PasswordGeneratorComponent {
       availableChars += this.specialChars;
     }
 
-    // Ensure the user selects at least one option
-    if (availableChars.length === 0) {
-      alert('Please select at least one character set.');
-      return;
-    }
-
     // Generate random password
     for (let i = 0; i < length; i++) {
       const randomIndex = Math.floor(Math.random() * availableChars.length);
